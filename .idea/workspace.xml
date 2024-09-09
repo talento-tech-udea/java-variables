@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abc1adc8-ee4e-4fc3-887c-ce9e0effb93d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/triangle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PerimeterCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PerimeterCalculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="abc1adc8-ee4e-4fc3-887c-ce9e0effb93d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +39,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/manueljurado/talento-tech/java-programming"
+    "last_opened_file_path": "/Users/manueljurado/talento-tech/java-variables"
   }
 }]]></component>
   <component name="RecentsManager">
