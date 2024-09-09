@@ -2,43 +2,48 @@ import org.talento.tech.*;
 
 import java.util.List;
 
+/**
+ * Este codigo permite calcular el perimetro de figuras de N >= 3 lados
+ * Figuras de ejemplo:
+ * - square.txt - lado de 4
+ * - triangle.txt - base de 4, altura de 4
+ */
+
 public class PerimeterCalculator {
 
     public PerimeterCalculator () {}
 
     public double calculatePerimeter(Shape s) {
-        double perimeter = 0.0;
+        // Definir la variable que acumule el perimetro
 
         List<Point> points = s.getPoints();
         Point prevPoint = points.getLast();
 
         for (Point point : points) {
-            double currDist = prevPoint.distancia(point);
-            perimeter += currDist;
+            // Obtener la distancia de los lados
+            // Ayuda: prevPoint.distancia(point)
 
             prevPoint = point;
         }
 
-        return perimeter;
+        // Retornar la variable del perimetro
     }
 
     public int getTotalPoints(Shape s) {
-        int totalPoints = 0;
+        // Definir la variable para el total de puntos
         for(Point point: s.getPoints()) {
-            totalPoints += 1;
+            // Acumular el total de puntos
         }
 
-        return totalPoints;
+        // Retornas el valor de puntos
     }
 
     public static void main (String[] args) {
         PerimeterCalculator perimeterCalculator = new PerimeterCalculator();
-        String fileName = "square.txt";
+        // Definit el nombre del archivo
         Shape shape = new Shape();
-        shape.readPoints(fileName);
-        double perimeter = perimeterCalculator.calculatePerimeter(shape);
-        System.out.println("Perimeter: " + perimeter);
-        int totalPoints = perimeterCalculator.getTotalPoints(shape);
-        System.out.println("Total points: " + totalPoints);
+
+        shape.readPoints("nombre_archivo");
+        // Mostrar el valor de calculatePerimeter y getTotalPoints
     }
 }
